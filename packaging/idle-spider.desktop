@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Idle Spider
+Comment=A tiny spider weaves webs while you are away
+Exec=idle-spider --settings
+Icon=idle-spider
+Terminal=false
+Categories=Utility;Settings;
+Keywords=idle;screensaver;spider;
+StartupNotify=false

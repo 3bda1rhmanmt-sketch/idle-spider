@@ -1,0 +1,12 @@
+[Unit]
+Description=Idle Spider
+PartOf=graphical-session.target
+After=graphical-session.target
+
+[Service]
+ExecStart=%h/.local/bin/idle-spider
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=graphical-session.target
